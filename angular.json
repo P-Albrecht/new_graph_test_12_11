@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angularTemp": {
+    "material-dashboard-angular": {
       "root": "",
       "sourceRoot": "src",
       "projectType": "application",
@@ -85,14 +85,14 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angularTemp:build"
+            "browserTarget": "material-dashboard-angular:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angularTemp:build:production"
+              "browserTarget": "material-dashboard-angular:build:production"
             },
             "development": {
-              "browserTarget": "angularTemp:build:development"
+              "browserTarget": "material-dashboard-angular:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -100,7 +100,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angularTemp:build"
+            "browserTarget": "material-dashboard-angular:build"
           }
         },
         "test": {
@@ -143,7 +143,7 @@
         }
       }
     },
-    "angularTemp-e2e": {
+    "material-dashboard-angular-e2e": {
       "root": "",
       "sourceRoot": "",
       "projectType": "application",
@@ -152,7 +152,7 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "./protractor.conf.js",
-            "devServerTarget": "angularTemp:serve"
+            "devServerTarget": "material-dashboard-angular:serve"
           }
         },
         "lint": {
@@ -167,7 +167,7 @@
       }
     }
   },
-  "defaultProject": "angularTemp",
+  "defaultProject": "material-dashboard-angular",
   "schematics": {
     "@schematics/angular:component": {
       "prefix": "app",
